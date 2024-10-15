@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "path": "/stock",
+      "methods": ["GET"],
+      "backend": {
+        "type": "STOCK_RESPONSE_BACKEND",
+        "body": "{\"message\":\"Response from a Dark Gateway\"}",
+        "headers":[],
+        "status":200
+      }
+    }
+  ]
+}

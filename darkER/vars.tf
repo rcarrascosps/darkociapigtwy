@@ -1,0 +1,10 @@
+variable compartment_ocid { default = "" }
+variable subnet_ocid { default = "" }
+variable user_data { default = "" }
+variable region { default = "us-ashburn-1" }
+variable shape {default = "VM.Standard.E5.Flex" }
+variable ocpus {default = 1 }
+variable memory_in_gbs {default = 12 }
+variable source_id {default = "ocid1.image.oc1..aaaaaaaajk6x2u54blaanrl7bla7fpsdgrjhp74aybqzf5elblphcobzbz7a" }
+variable er_ssh_public_key {default = "~/.ssh/id_rsa.pub" }
+variable user_preferences {default = ""}
