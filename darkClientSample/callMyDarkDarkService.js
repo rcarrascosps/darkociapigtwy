@@ -14,7 +14,7 @@ ziti.httpRequest(
   undefined,                     // OpenZiti Service name or HTTP origin part of the URL
   process.env.ZITI_HOST,
   'GET',
-  '/api/people/1',                          
+  '/api/stock',                          
   ['Accept: application/json' ], // headers
   undefined,                     // optional on_req cb
   undefined,                     // optional on_req_data cb
